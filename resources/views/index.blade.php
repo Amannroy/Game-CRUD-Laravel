@@ -92,6 +92,7 @@
             text-align: center; /* Center align the text */
             margin-bottom: 20px; /* Add some space below the heading */
         }
+
     </style>
 </head>
 <body>
@@ -141,6 +142,7 @@
         </tbody>
     </table>
     </div>
+    {{ $games->links() }}
     @endsection
 </body>
 </html>
